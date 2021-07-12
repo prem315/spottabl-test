@@ -1,0 +1,69 @@
+.seachable-container {
+    margin-bottom: 20px;
+}
+.seachable-box {
+    min-height: 36px;
+    border: 1px solid #d9d9d9;
+    line-height: 1;
+    font-size: 1em;
+    display: flex;
+    // align-items: center;
+    // padding-left: 10px;
+    justify-content: space-between;
+    border-radius: 5px;
+
+    position: relative;
+
+
+    input {
+        display: inline-block;
+        width: 40%;
+        border: 0;
+        outline: none;
+        margin-left: 15px;
+    }
+
+    .auto-suggetions-box {
+        width: 100%;
+        padding: 0px !important;
+        position: absolute;
+        background: white;
+        overflow-x: hidden;
+        overflow-y: auto;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        z-index: 1000;
+        padding: 5px 0;
+        margin: 2px 0 0;
+        font-size: 18px;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        // border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        max-height: 284px;
+        min-width: min-content;
+        // box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+        cursor: pointer;
+        top: 40px;
+
+    }
+
+    .right-box {
+        display: flex;
+        align-items: center;
+
+        .search-add-btn {
+            background-color: #1e31a1;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 600;
+            padding-left: 20px;
+            padding-right: 20px;
+            align-self: stretch;
+            margin-left: 20px;
+
+        }
+    }
+}

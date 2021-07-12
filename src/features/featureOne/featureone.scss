@@ -1,0 +1,57 @@
+.feature-one-container {
+    .header-one {
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 22px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-bottom: 10px;
+
+        .heading-icon {
+            width: 15px;
+            margin-bottom: 5px;
+        }
+    }
+
+    .header-two {
+        font-size: 14px;
+        color: #363636;
+        font-weight: 500;
+    }
+
+    .feature-box {
+        margin-top: 40px;
+        background-color: #ffffff;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 5px;
+        box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.01),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.01),
+            0 12.5px 10px rgba(0, 0, 0, 0.01),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.01),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.01),
+            0 100px 80px rgba(0, 0, 0, 0.01);
+
+        .feature-header-box {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .feature-header {
+                font-weight: 500;
+            }
+            .reset {
+                color: #c7c7c7;
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
+           
+    }
+}

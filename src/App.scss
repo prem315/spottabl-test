@@ -1,0 +1,17 @@
+.app {
+  background-color: #f2f3f8;
+  padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+  .first-row-container {
+    // display: grid;
+    // grid-template-columns: 50% 50%;
+    // grid-gap: 100px;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}

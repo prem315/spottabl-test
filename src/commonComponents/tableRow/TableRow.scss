@@ -1,0 +1,66 @@
+// .table-row-container {
+//     border: 1px solid #d9d9d9;
+//     border-radius: 5px;
+
+    .table-row {
+        border-bottom: 1px solid #d9d9d9;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+        .trash-img {
+            // margin-left: auto;
+            width: 17px;
+            margin-left: 20px;        
+        }
+
+        .personal-details {
+            margin-left: 20px;
+            .name  {
+                font-size: 14px;
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+            .other-details {
+                display: flex;
+                color: #757575;
+                font-size: 12px;
+                font-weight: 500;
+
+                .designation-box {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 10px;
+
+                    img {
+                        width: 14px;
+                        margin-right: 5px;
+                    }
+                }
+
+                .email-box {
+                    display: flex;
+                    align-items: center;
+                    .dot {
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 3px;
+                        background-color: #757575;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+
+        .dropdown-box {
+            margin-left: auto;
+        }
+    }
+// }
+
+// .table-row:last-child {
+//     border-bottom: none;
+// }
